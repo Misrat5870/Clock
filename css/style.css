@@ -13,6 +13,7 @@ body{
     background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	background-attachment: fixed;
 	height: 100vh;
 }
 .head{
@@ -160,4 +161,11 @@ span{
 }
 .start a button:hover{
 	background: black;
+}
+
+/*Responsive*/
+@media screen and (min-width: 1200px) {
+  body {
+    height: auto;
+  }
 }
